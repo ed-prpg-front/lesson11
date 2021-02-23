@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Lora";
+   src: url("../fonts/Lora-Regular.woff2") format("woff2"), url("../fonts/Lora-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Lora";
+   src: url("../fonts/Lora-Bold.woff2") format("woff2"), url("../fonts/Lora-Bold.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+/* ------------------ */
+body {
+   font-family: "Lato";
+}
+.header__menu {
+   margin-top: 61px;
+}
+.container {
+   max-width: 1275px;
+   margin-left: 50px;
+}
+.header__menu > li {
+   display: inline-block;
+}
+.header__item {
+   margin-left: 40px;
+}
+.header__menu > li:nth-child(2) {
+   margin-left: 184px;
+}
+.header__login {
+   margin-left: 81px;
+}
+.login__button {
+   padding: 12px 24px;
+   background-color: transparent;
+   color: #ff5722;
+   font-weight: 700;
+   font-size: 16px;
+}
+.sign__button {
+   padding: 12px 24px;
+   background-color: #ff5722;
+   color: #fff;
+   font-weight: 700;
+   font-size: 16px;
+}
+.logo__link {
+   font-family: "Playfair Display";
+   font-size: 24px;
+   font-weight: bold;
+   color: #10375c;
+}
+.header__link {
+   font-size: 16px;
+   color: #222831;
+   font-weight: 700;
+}
+.section__body {
+   max-width: 667px;
+}
+.section__text {
+   max-width: 382px;
+}
+.section__head {
+   font-weight: 500;
+   font-size: 20px;
+   color: #222831;
+   position: relative;
+   margin-top: 56px;
+}
+.section__head::after {
+   content: "";
+   position: absolute;
+   left: 116px;
+   width: 73px;
+   height: 2px;
+   background: #222831;
+   top: 11px;
+}
+.section__body {
+   font-weight: bold;
+   font-size: 52px;
+   color: #10375c;
+   line-height: 67px;
+   font-family: "Lora";
+   position: relative;
+   top: 0;
+}
+.body__span {
+   color: #dd2c00;
+}
+.section__text,
+.section__body {
+   display: inline-block;
+}
+.section__text {
+   color: #6a6a6a;
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: 500;
+   vertical-align: top;
+   width: 382px;
+   height: 120px;
+   display: inline-block;
+   margin-left: 93px;
+}
+.block:first-child {
+   background: url("../img/meeting-room.png") 0 0/32px auto no-repeat;
+   padding-left: 56px;
+}
+.advantages__container {
+   max-width: 499px;
+   margin-top: 120px;
+}
+.block:nth-child(2) {
+   background: url("../img/circus.png") 0 0/32px auto no-repeat;
+   padding-left: 56px;
+   margin-left: 124px;
+}
+.block:first-child,
+.block:nth-child(2) {
+   display: inline-block;
+}
+.block:nth-child(3) {
+   margin-top: 64px;
+   background: url("../img/Flag.png") 0 0/32px auto no-repeat;
+   padding-left: 56px;
+}
+.block:nth-child(4) {
+   background: url("../img/wifi.png") 0 0/32px auto no-repeat;
+   padding-left: 56px;
+   margin-left: 162px;
+}
+.block:nth-child(3),
+.block:nth-child(4) {
+   display: inline-block;
+}
+.block:nth-child(5) {
+   margin-top: 64px;
+   background: url("../img/man.png") 0 0/32px auto no-repeat;
+   padding-left: 56px;
+}
+.block:nth-child(6) {
+   background: url("../img/manypeople.png") 0 0/32px auto no-repeat;
+   padding-left: 56px;
+   margin-left: 115px;
+}
+.block:nth-child(5),
+.block:nth-child(6) {
+   display: inline-block;
+}
+.why-frispes__container {
+   width: 540px;
+   background-color: #10375c;
+   position: absolute;
+   left: 618px;
+   top: 420px;
+}
+.block__figures {
+   color: #10375c;
+   font-family: Lora;
+   font-size: 32px;
+}
+.block__text {
+   color: #9a9a9a;
+   font-size: 16px;
+}
+.why-frispes__head {
+   padding: 54px 0px 0px 53px;
+   color: #ffffff;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 30px;
+}
+.why-frispes__body {
+   padding: 8px 54px 0px 53px;
+   font-size: 40px;
+   font-weight: bold;
+   font-family: Lora;
+   line-height: 51px;
+   color: #fff;
+}
+.why-frispes__footer {
+   padding: 24px 54px 53px 53px;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+   color: #ffffff;
+}
+.why-frispes__head::after {
+   content: "";
+   width: 73px;
+   height: 2px;
+   background-color: #fff;
+   display: block;
+   position: relative;
+   top: -15px;
+   left: 121px;
+}
+.using-frispes__title {
+   margin-top: 121px;
+   text-align: center;
+   font-family: Lora;
+   font-weight: bold;
+   font-size: 40px;
+   line-height: 51px;
+   color: #0d2c4a;
+}
+.using-frispes__subtitle {
+   font-family: Lato;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 28px;
+   color: #9a9a9a;
+   text-align: center;
+   margin-top: 24px;
+}
+.using-frispes__images {
+   margin-top: 56px;
+}
+.images__icons {
+   margin-right: 60px;
+}
+.images__icons:last-child {
+   margin-right: 0;
+}
+.productivity__image {
+   margin-top: 60px;
+}
+.productivity__title {
+   margin-top: 14px;
+   font-family: Lora;
+   font-size: 22px;
+   line-height: 28px;
+   color: #222831;
+   padding-left: 16px;
+   max-width: 316px;
+}
+.productivity__author {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   padding-left: 16px;
+   margin-top: 4px;
+   color: #9a9a9a;
+}
