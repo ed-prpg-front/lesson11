@@ -78,7 +78,7 @@ body {
 }
 .container {
    max-width: 1275px;
-   margin-left: 50px;
+   margin: 0 auto;
 }
 .header__menu > li {
    display: inline-block;
