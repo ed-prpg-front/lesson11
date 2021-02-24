@@ -1,28 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
-@font-face {
-   font-family: "Lato";
-   src: url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.woff") format("woff");
-   font-weight: 500;
-   font-style: normal;
-   font-display: swap;
-}
-
-@font-face {
-   font-family: "Lato";
-   src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
-   font-weight: bold;
-   font-style: normal;
-   font-display: swap;
-}
-
-@font-face {
-   font-family: "Lato";
-   src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
-   font-weight: normal;
-   font-style: normal;
-   font-display: swap;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @font-face {
    font-family: "Lora";
    src: url("../fonts/Lora-Regular.woff2") format("woff2"), url("../fonts/Lora-Regular.woff") format("woff");
@@ -71,14 +48,14 @@ img {
 }
 /* ------------------ */
 body {
-   font-family: "Lato";
+	font-family: "Lato";
 }
 .header__menu {
    margin-top: 61px;
 }
 .container {
    max-width: 1275px;
-   margin: 0 auto;
+   margin-left: 50px;
 }
 .header__menu > li {
    display: inline-block;
